@@ -5,81 +5,126 @@
     <link rel="icon" type="image/svg+xml" href="/anatolii-top/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     
     <script type="module" crossorigin src="/anatolii-top/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/anatolii-top/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/anatolii-top/assets/index-51c4054c.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+    
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
-</header>
+    <main>
+      <section class="hero">
+      <div class="container">
 
+        <h1 class="hero-title">Welcome to our collection of premium watches</h1>
+        <div class="wrap-sliders">
+          <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img 
+              srcset="../img/1.jpg 436w, ../img/1@2x.jpg 872w"
+              sizes="(max-width: 767px) 266px,(min-width: 768px) 436px" 
+              src="../img/1.jpg" alt="clock 1">
+            </div>
+            <div class="swiper-slide">
+              <img 
+              srcset="../img/2.jpg 436w, ../img/2@2x.jpg 872w"
+              sizes="(max-width: 767px) 266px,(min-width: 768px) 436px"
+              src="../img/2.jpg" alt="clock 2">
+            </div>
+            <div class="swiper-slide">
+              <img 
+              srcset="../img/3.jpg 436w, ../img/3@2x.jpg 872w"
+              sizes="(max-width: 767px) 266px,(min-width: 768px) 436px"
+              src="../img/3.jpg" alt="clock 3">
+            </div>
+            <div class="swiper-slide">
+              <img 
+              srcset="../img/4.jpg 436w, ../img/4@2x.jpg 872w"
+              sizes="(max-width: 767px) 266px,(min-width: 768px) 436px"
+              src="../img/4.jpg" alt="clock 4">
+            </div>
+            <div class="swiper-slide">
+              <img 
+              srcset="../img/5.jpg 436w, ../img/5@2x.jpg 872w"
+              sizes="(max-width: 767px) 266px,(min-width: 768px) 436px"
+              src="../img/5.jpg" alt="clock 5">
+            </div>
+          </div>
+        </div>
+        <div class="bottom-slider">
+          <div class="swiper-buttons">
+          <div class="button-prev btn-slide">
+            <svg class="icon-slide">
+              <use href="/anatolii-top/assets/icons-6b68227f.svg#icon-left"></use>
+            </svg>
+          </div>
+          <div class="button-next btn-slide">
+            <svg class="icon-slide">
+              <use href="/anatolii-top/assets/icons-6b68227f.svg#icon-right"></use>
+            </svg>
+          </div>
+        </div>
+          <span class="number-slides">01 &#9135;&#9135;&#9135;&#9135; 05</span>
+        </div>
+        </div>
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/anatolii-top/assets/javascript-8dac5379.svg" alt="" />
+        <p class="hero-descr">Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
+
+        <div class="hero-img">
+          
+        </div>
+
+      </div>
     </section>
 
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
+      
 
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
+      
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/anatolii-top/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
-  </div>
-</section>
+      
 
+      
+    </main>
 
     
+
+    
+
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: '.button-next',
+          prevEl: '.button-prev',
+        },
+      });
+    </script>
   </body>
 </html>
