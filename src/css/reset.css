@@ -1,4 +1,12 @@
 /* Reset styles */
+:root {
+  --color-black: #141414;
+  --color-dark-green: #1e2827;
+  --color-white: #ffffff;
+}
+body {
+  font-family: "Epilogue", sans-serif;
+}
 h1,
 h2,
 h3,
@@ -8,28 +16,37 @@ h6,
 p {
   margin: 0;
 }
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul,ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 a {
-  color: currentColor;
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.container {
+  margin: 0 auto;
+}
+@media screen and (min-width: 335px) {
+  .container {
+    width: 335px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1176px;
+  }
 }
