@@ -1,0 +1,156 @@
+.section-n-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #1E2827;
+    margin-bottom: 80px;
+    margin-right: 13px;
+}
+
+.description-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin-bottom: 8px;
+    max-width: 396px;
+
+}
+
+.product-code {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 16px;
+}
+
+.price {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.min-price {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.max-price {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    text-decoration-line: line-through;
+    color: rgba(20, 20, 20, 0.5);
+    margin-top: 6.5px;
+}
+
+
+.description-clock-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 17px;
+    border-top: 1px solid #141414;
+
+}
+
+
+.description-clock-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+    margin-bottom: 20px;
+    max-width: 396px;
+}
+
+.characteristic-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 9px;
+    border-top: 1px solid #141414;
+}
+
+.characteristic-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.big-nnn-img-bpx {
+    display: block;
+}
+
+.characteristic-text-list {
+    display: flex;
+    flex-direction: column;
+    gap: 9.5px;
+}
+
+.img-container-n {
+    display: flex;
+    gap: 20px;
+}
+
+.sale-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.abaut-clock {
+    padding-right: 132px;
+}
+
+.text-decoration-line {
+width: 16px;
+height: 0px;
+left: 0px;
+top: 0px;
+margin-left: 300px;
+}
+
+.text-decoration-line-limon{
+width: 16px;
+height: 0px;
+left: 0px;
+top: 0px;
+margin-left: 195px;
+    
+}
