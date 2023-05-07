@@ -24,7 +24,7 @@
     />
     
     <script type="module" crossorigin src="/anatolii-top/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/anatolii-top/assets/index-034c63cc.css">
+    <link rel="stylesheet" href="/anatolii-top/assets/index-c851f124.css">
   </head>
   <body>
     <header class="header">
@@ -49,7 +49,7 @@
             <div class="mob-menu">
                 <button class="menu-button" type="button" js-open-menu>
                     <svg class="mob-menu" width="24px" height="24px">
-                        <use href="/anatolii-top/assets/icons-3328aa18.svg#icon-menu-header"></use>
+                        <use href="/anatolii-top/assets/icons-a0b155be.svg#icon-menu-header"></use>
                     </svg>
                 </button>
             </div>
@@ -62,7 +62,7 @@
                 </div>
                 <button class="btn-close-menu" type="button" js-close-menu>
                     <svg width="24px" height="24px">
-                    <use href="/anatolii-top/assets/icons-3328aa18.svg#icon-close-menu"></use>
+                    <use href="/anatolii-top/assets/icons-a0b155be.svg#icon-close-menu"></use>
                 </svg></button>
             </div>
             <div>
@@ -121,12 +121,12 @@
           <div class="swiper-buttons">
           <div class="button-prev btn-slide">
             <svg class="icon-slide">
-              <use href="/anatolii-top/assets/icons-3328aa18.svg#icon-left"></use>
+              <use href="/anatolii-top/assets/icons-a0b155be.svg#icon-left"></use>
             </svg>
           </div>
           <div class="button-next btn-slide">
             <svg class="icon-slide">
-              <use href="/anatolii-top/assets/icons-3328aa18.svg#icon-right"></use>
+              <use href="/anatolii-top/assets/icons-a0b155be.svg#icon-right"></use>
             </svg>
           </div>
         </div>
@@ -579,7 +579,87 @@
       </div>
     </footer>
 
-    
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button type="button" class="close-btn" data-modal-close>
+      <svg class="close-icon" width="20px" height="20px">
+        <use class="close-x" href="../img/icons.svg#icon-x_2424"></use>
+      </svg>
+    </button>
+    <div class="selection">
+      <ul class="watch-list list">
+        <li>
+          <img
+            srcset="../images/catalog_img_1x2.jpeg 2x"
+            src="../img/catalog_img_1.jpeg"
+            alt="photo Tube Watch S42 Date Steel With Black Case"
+            width="276"
+            class="watch-img"
+          />
+        </li>
+        <li>
+          <p class="watch-brand">Tube Watch S42 Date Steel With Black Case</p>
+        </li>
+        <li>
+          <p class="watch-price">€395</p>
+        </li>
+      </ul>
+    </div>
+    <div class="form-container">
+      <form class="modal-form">
+        <label class="form-subtitle">
+          <span class="input-call"> Full name</span>
+          <input
+            required
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+            autofocus
+            title="please enter your  name"
+            class="modal-input"
+            type="text"
+            placeholder="Enter your full name"
+          />
+        </label>
+        <label class="form-subtitle">
+          <span class="input-call">Email</span>
+          <input
+            pattern="^([^ ]+@[^ ]+\.[a-z]{2,6}|)$"
+            title=""
+            required
+            class="modal-input"
+            type="email"
+            placeholder="Enter your email"
+          />
+        </label>
+        <label class="form-subtitle">
+          <span class="input-call">Card number</span>
+          <input
+            pattern="/^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$/
+"
+            title="please enter sixteen digits of your credit card"
+            required
+            type="password"
+            placeholder="Enter card"
+            class="modal-input"
+          />
+        </label>
+        <label class="form-subtitle textarea">
+          <span class="input-call">Coments</span>
+          <textarea
+            class="textarea-input"
+            placeholder="Enter your text"
+          ></textarea>
+        </label>
+        <button type="submit" class="submit-btn">SUBMIT</button>
+        <p class="policy-text">
+          By clicking on “Submit” button, you agree to our
+          <a class="policy-link" href="#">Privacy Policy</a>, and allow Promodo
+          to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
 
     
 
