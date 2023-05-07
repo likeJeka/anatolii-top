@@ -179,6 +179,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 75vw;
+  height: 85vh;
+  margin: 0 auto;
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-img {
