@@ -48,6 +48,7 @@
 .catalog-item-img {
     width: 336px;
     height: 360px;
+    object-fit: cover;
 }
 
 .catalog-item-title {
