@@ -5,7 +5,7 @@
   --color-white: #ffffff;
 }
 body {
-  font-family: "Epilogue", sans-serif;
+  font-family: 'Epilogue', sans-serif;
 }
 h1,
 h2,
@@ -16,7 +16,8 @@ h6,
 p {
   margin: 0;
 }
-ul,ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
