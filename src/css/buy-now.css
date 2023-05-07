@@ -25,14 +25,14 @@
   height: 100vh;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.012);
+  background: rgba(0, 0, 0, 0.80);
+  z-index: 5;
 }
 
 .modal {
   width: 95%;
   width: 335px;
   height: 95%;
-  overflow: scroll;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -40,6 +40,12 @@
   transform: translate(-50%, -50%);
   padding: 12px 20px 40px;
 }
+@media screen and (max-width:767px) {
+  .modal {
+    overflow: scroll;
+  }
+}
+
 
 .close-btn {
   position: absolute;
