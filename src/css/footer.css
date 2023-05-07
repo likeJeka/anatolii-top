@@ -133,13 +133,13 @@
 
 /*FOOTER MEDIA*/
 @media screen and (min-width: 335px) {
-  .container {
+  .footer .container {
     width: 335px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .footer .container {
     width: 704px;
   }
   .footer-text-tele {
@@ -186,7 +186,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
+  .footer .container {
     width: 1016px;
   }
 }
