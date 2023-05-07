@@ -1,0 +1,137 @@
+.header{
+    background-color: var(--color-black);
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 29px;
+}
+.logo-nav-wrap{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+.logo-text{
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.menu-icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 4px;
+}
+.menu-button{
+    background-color: inherit;
+    border: none;
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.nav-list {
+    display: none;
+}
+.nav-list-link {
+font-size: 9px;
+line-height: 1.33;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.tel-btn {
+    display: none;
+}
+.tel-btn-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.33;
+    color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+    .header-container{
+        padding-top: 20px;
+    }
+    .mob-menu-icon{
+        width: 19px;
+        height: 19px;
+    }
+    .logo-text{
+        font-size: 15px;
+    }
+    .mob-menu{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+    .tel-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #1E2827;
+        border-radius: 8px;
+        min-width: 159px;
+        height: 48px;
+    }
+}
+
+
+.mob-menu-big {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    padding: 29px 20px;
+    background-color: var(--color-dark-green);
+    transform: translateX(200%);
+    transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-btn-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mob-menu-big.is-open {
+    transform: translate(0);
+}
+.btn-close-menu {
+    background-color: inherit;
+    border: none;
+}
+.mob-nav-list-item {
+    text-align: center;
+}
+.mob-nav-list-item:not(:last-child) {
+margin-bottom: 14px;
+}
+.mob-nav-list-link {
+    font-style: normal;
+font-weight: 400;
+    font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
