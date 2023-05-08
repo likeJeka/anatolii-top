@@ -69,25 +69,25 @@
   }
 }
 
-.swiper {
+.swiper.mySwiper {
   margin-left: 0;
   margin-bottom: 20px;
   width: 266px;
   height: 200px;
 }
 @media screen and (min-width: 768px) {
-  .swiper {
+  .swiper.mySwiper {
     width: 436px;
     height: 255px;
   }
 }
 
-.swiper-slide {
+.swiper.mySwiper .swiper-slide {
   width: 266px;
   height: 200px;
 }
 @media screen and (min-width: 768px) {
-  .swiper-slide {
+  .swiper.mySwiper .swiper-slide {
     width: 436px;
     height: 255px;
   }
@@ -206,4 +206,20 @@
     width: 676px;
     height: 394px;
   }
+}
+
+.swiper_num {
+  width: 18px;
+  height: 18px;
+}
+
+.swiper_num p {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.box-num-swiper {
+  display: flex;
 }
