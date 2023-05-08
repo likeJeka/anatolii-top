@@ -1,443 +1,250 @@
-.sale-containor-sections {
-    justify-content: center;
-    align-items: center;
-    
-}
 
+/* -----------------------------------------------general=styles--------------------------------------------------- */
+
+.sale-sections {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
 
 .section-n-title {
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    color: #1E2827;
-    margin-bottom: 80px;
-    margin-right: 13px;
+  font-family: "Epilogue";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+  margin-bottom: 40px;
 }
 
-
 .big-nnn-img-bpx {
-    display: block;
+  display: block;
 }
 
 .characteristic-text-list {
-    display: flex;
-    flex-direction: column;
-    gap: 9.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 9.5px;
 }
-
-
 
 .sale-img {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sale-item {
+  width: 80px;
+  height: 80px;
 }
 
+.abaut-clock {
+  display: flex;
+  flex-direction: column;
+}
 
+.big-nnn-img-bpx {
+  display: block;
+}
 
+.description-title {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-bottom: 8px;
+}
+.product-code {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 16px;
+}
 
+.price {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+.min-price {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #141414;
+}
 
+.max-price {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  text-decoration-line: line-through;
+  color: rgba(20, 20, 20, 0.5);
+  margin-top: 6.5px;
+}
+
+.description-clock-title {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 9px;
+  border-top: 1px solid #141414;
+  padding-top: 8px;
+  display: flex;
+}
+.description-clock-text {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: rgba(20, 20, 20, 0.5);
+  margin-bottom: 40px;
+}
+
+.characteristic-title {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 17px;
+  border-top: 1px solid #141414;
+  padding-top: 8px;
+  display: flex;
+}
+.characteristic-text {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.grup-photo {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.text-decoration-line {
+  margin-left: auto;
+}
+
+.text-decoration-line-limon {
+  width: 16px;
+  height: 0px;
+  left: 0px;
+  top: 0px;
+  margin-left: 100px;
+}
 /* -----------------------------------------------------------------------adaptiv site --------------------------------------------------------------------*/
 
 /* tel------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 335px) {
-    .container {
-        width: 335px;
-    }
-
-    .abaut-clock {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .big-nnn-img-bpx {
-        display: block;
-    }
-
-    .description-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        color: #141414;
-        margin-bottom: 8px;
-        max-width: 335px;
-    
-    }
-
-    .product-code {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.02em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 16px;
-    }
-
-    .price {
-        display: flex;
-        gap: 8px;
-        margin-bottom: 40px;
-    }
-
-    .min-price {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        color: #141414;
-    }
-
-    .max-price {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: -0.02em;
-        text-decoration-line: line-through;
-        color: rgba(20, 20, 20, 0.5);
-        margin-top: 6.5px;
-    }
-
-    .description-clock-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: #141414;
-        margin-bottom: 17px;
-        border-top: 1px solid #141414;
-        padding-top: 8px;
-    
-    }
-
-    .description-clock-text {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 20px;
-        max-width: 335px;
-    }
-
-    .characteristic-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: #141414;
-        margin-bottom: 9px;
-        border-top: 1px solid #141414;
-        padding-top: 8px;
-    }
-
-    .characteristic-text {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-    }
-
-    .grup-photo {
-        display: flex;
-        gap: 20px;
-        margin-bottom: 40px;
-    }
-
-    .text-decoration-line {
-        width: 16px;
-        height: 0px;
-        left: 0px;
-        top: 0px;
-        margin-left: 205px;
-    }
-    
-    .text-decoration-line-limon {
-        width: 16px;
-        height: 0px;
-        left: 0px;
-        top: 0px;
-        margin-left: 100px;
-    
-    }
-    
-
-
+  .container-sale {
+    width: 335px;
+  }
+  .sale-img-tab {
+    display: none;
+  }
+  .big-nnn-img-bpx-tab {
+    display: none;
+  }
 }
 
 /* tab-------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
-    .container {
-        width: 704px;
-    }
+  .sale-sections {
+    margin-bottom: 128px;
+  }
 
-    .abaut-clock {
-        display: flex;
-        flex-direction: column;
-    }
-    .big-nnn-img-bpx {
-        display: block;
-    }
+  .container-sale {
+    width: 704px;
+  }
+  .img-container-n {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+  .sale-img-tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .sale-img {
+    display: none;
+  }
+  .sale-item {
+    width: 146px;
+    height: 146px;
+  }
+  .big-nnn-img-bpx {
+    display: none;
+  }
+  .big-nnn-img-bpx-tab {
+    display: block;
+  }
 
-    .price {
-        display: flex;
-        gap: 8px;
-        margin-bottom: 40px;
-    }
-    
-    .min-price {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        color: #141414;
-    }
+  .abaut-clock {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
 
-    .max-price {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: -0.02em;
-        text-decoration-line: line-through;
-        color: rgba(20, 20, 20, 0.5);
-        margin-top: 6.5px;
-    }
-
-    .description-clock-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: #141414;
-        margin-bottom: 17px;
-        border-top: 1px solid #141414;
-        padding-top: 8px;
-    
-    }
-
-    .text-decoration-line {
-        width: 16px;
-        height: 0px;
-        left: 0px;
-        top: 0px;
-        margin-left: 575px;
-    }
-    
-    .text-decoration-line-limon {
-        width: 16px;
-        height: 0px;
-        left: 0px;
-        top: 0px;
-        margin-left: 470px;
-    
-    }
-
-    .description-clock-text {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 20px;
-        max-width:  572px;
-    }
-
-    .characteristic-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: #141414;
-        margin-bottom: 9px;
-        border-top: 1px solid #141414;
-        padding-top: 8px;
-    }
-
-    .characteristic-text {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-    }
-    
-    
-
+  .description-title {
+    font-size: 38px;
+    line-height: 1;
+  }
+  .characteristic-text-list {
+    gap: 3px;
+  }
 }
-
 /* pc------------------------------------------------------------------------------------------------------ */
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1176px;
-    }
+  .sale-sections {
+    margin-bottom: 120px;
+  }
+  .container-sale {
+    width: 1176px;
+  }
+  .sale-container-group-comp {
+    display: flex;
+  }
 
-    .abaut-clock {
-        padding-right: 132px;
-    }
+  .big-nnn-img-bpx-tab {
+    height: 614px;
+  }
 
-    .img-container-n {
-        display: flex;
-        gap: 20px;
-    }
+  .section-n-title {
+    margin-bottom: 80px;
+  }
 
-    .big-nnn-img-bpx {
-        display: block;
-    }
-    .description-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 38px;
-        line-height: 1.5;
-        letter-spacing: -0.02em;
-        color: #141414;
-        margin-bottom: 8px;
-        max-width: 396px;
-    
-    }
-    .product-code {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.02em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 16px;
-    }
+  .grup-photo {
+    gap: 20px;
+  }
 
-    .price {
-        display: flex;
-        gap: 8px;
-        margin-bottom: 40px;
-    }
+  .abaut-clock {
+    padding-left: 0;
+    padding-right: 0;
+    width: 369px;
+  }
 
-    .min-price {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        color: #141414;
-    }
-
-    .max-price {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: -0.02em;
-        text-decoration-line: line-through;
-        color: rgba(20, 20, 20, 0.5);
-        margin-top: 6.5px;
-    }
-
-    .description-clock-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: #141414;
-        margin-bottom: 17px;
-        border-top: 1px solid #141414;
-        padding-top: 8px;
-    
-    }
-
-    .text-decoration-line {
-        width: 16px;
-        height: 0px;
-        left: 0px;
-        top: 0px;
-        margin-left: 300px;
-    }
-    
-    .text-decoration-line-limon {
-        width: 16px;
-        height: 0px;
-        left: 0px;
-        top: 0px;
-        margin-left: 195px;
-    
-    }
-
-    .description-clock-text {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-        margin-bottom: 20px;
-        max-width: 396px;
-    }
-
-    .characteristic-title {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.3;
-        letter-spacing: -0.02em;
-        text-transform: uppercase;
-        color: #141414;
-        margin-bottom: 9px;
-        border-top: 1px solid #141414;
-        padding-top: 8px;
-    }
-
-    .characteristic-text {
-        font-family: 'Epilogue';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
-        color: rgba(20, 20, 20, 0.5);
-    }
-    
-
+  .sale-container-group-comp {
+    display: flex;
+  }
 }
