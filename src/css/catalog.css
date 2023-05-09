@@ -17,10 +17,11 @@
     margin-bottom: 40px;
 }
 
-
-
 .catolog-item-wrp {
     margin-bottom: 14px;
+
+    width: 335px;
+    height: 360px;
 
     position: relative;
     overflow: hidden;
@@ -46,8 +47,9 @@
 }
 
 .catalog-item-img {
-    width: 336px;
-    height: 360px;
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -82,9 +84,16 @@
     background-color: #1E2827;
     border-color: transparent;
     border-radius: 8px;
+
     color: #FFFFFF;
     font-size: 12px;
     line-height: 1.17;
+    transition: font-size 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.catalog-btn:hover {
+    font-size: 14px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .catalog-cover-title {
@@ -158,12 +167,8 @@
         margin-bottom: 14px;
         width: 276px;
         height: 325px;
-        padding-top: 52px;
     }
 
-    .catalog-list-item {
-        height: 375px;
-    }
 
     .catalog-cover-text {
         margin-bottom: 20px;
@@ -181,13 +186,5 @@
         margin-bottom: 14px;
         max-width: 276px;
     }
-
-
-
-    .catalog-item-img {
-        width: 276px;
-        height: 274px;
-    }
-
 
 }
