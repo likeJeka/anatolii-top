@@ -24,7 +24,7 @@
     />
     
     <script type="module" crossorigin src="/anatolii-top/assets/index-03f5ebd9.js"></script>
-    <link rel="stylesheet" href="/anatolii-top/assets/index-cea9d6f4.css">
+    <link rel="stylesheet" href="/anatolii-top/assets/index-0401eb3a.css">
   </head>
   <body>
     <header class="header">
@@ -130,9 +130,33 @@
             </svg>
           </div>
         </div>
-          <span class="number-slides">01 &#9135;&#9135;&#9135;&#9135; 05</span>
+          <div class="box-num-swiper">
+          <div class="swiper swiper_num mynumber">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+             <p>01</p>
+            </div>
+            <div class="swiper-slide">
+              <p>02</p>
+            </div>
+            <div class="swiper-slide">
+              <p>03</p>
+            </div>
+            <div class="swiper-slide">
+              <p>04</p>
+            </div>
+            <div class="swiper-slide">
+              <p>05</p>
+            </div>
+          </div>
+        </div>
+
+          <span class="number-slides">&#9135;&#9135;&#9135;&#9135; 05</span>
+        </div>
+        
         </div>
         </div>
+        
 
         <p class="hero-descr">Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to modern ones, we have a watch to suit every taste and occasion.</p>
 
@@ -753,6 +777,20 @@
         navigation: {
           nextEl: '.button-next',
           prevEl: '.button-prev',
+        },
+      });
+    </script>
+     <script>
+      const swiper_num = new Swiper(".mynumber", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        keyboard: {
+          enabled: true,
+        },
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
         },
       });
     </script>
