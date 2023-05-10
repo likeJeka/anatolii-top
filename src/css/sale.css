@@ -1,3 +1,10 @@
+/* -----------------------------------------------styl-sectioms--------------------------------------------------- */
+
+.sale-sections {
+    margin-bottom: 160px;
+    margin-top: 80px;
+}
+
 .sale-containor-sections {
     justify-content: center;
     align-items: center;
@@ -41,6 +48,152 @@
 
 
 /* -----------------------------------------------------------------------adaptiv site --------------------------------------------------------------------*/
+
+/* 320------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 320px) {
+        .container {
+            width: 320px;
+        }
+        
+        .abaut-clock {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .big-nnn-img-bpx {
+            display: block;
+        }
+        
+        .description-title {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            color: #141414;
+            margin-bottom: 8px;
+            max-width: 335px;
+        
+        }
+        
+        .product-code {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            color: rgba(20, 20, 20, 0.5);
+            margin-bottom: 16px;
+        }
+        
+        .price {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 40px;
+        }
+        
+        .min-price {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+            color: #141414;
+        }
+        
+        .max-price {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.16;
+            letter-spacing: -0.02em;
+            text-decoration-line: line-through;
+            color: rgba(20, 20, 20, 0.5);
+            margin-top: 6.5px;
+        }
+        
+        .description-clock-title {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            color: #141414;
+            margin-bottom: 17px;
+            border-top: 1px solid #141414;
+            padding-top: 8px;
+        
+        }
+        
+        .description-clock-text {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: -0.01em;
+            color: rgba(20, 20, 20, 0.5);
+            margin-bottom: 20px;
+            max-width: 335px;
+        }
+        
+        .characteristic-title {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.3;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+            color: #141414;
+            margin-bottom: 9px;
+            border-top: 1px solid #141414;
+            padding-top: 8px;
+        }
+        
+        .characteristic-text {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.2;
+            letter-spacing: -0.01em;
+            color: rgba(20, 20, 20, 0.5);
+        }
+        
+        .grup-photo {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .text-decoration-line {
+            width: 16px;
+            height: 0px;
+            left: 0px;
+            top: 0px;
+            margin-left: 190px;
+        }
+        
+        .text-decoration-line-limon {
+            width: 16px;
+            height: 0px;
+            left: 0px;
+            top: 0px;
+            margin-left: 84px;
+        
+        }
+        
+
+    }
+
 
 /* tel------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 335px) {
