@@ -129,11 +129,13 @@
   }
 }
 
-.btn-slide:hover {
+.btn-slide:hover,
+.btn-slide:focus {
   border: 1px solid rgb(255, 255, 255);
 }
 
-.btn-slide:hover .icon-slide {
+.btn-slide:hover .icon-slide,
+.btn-slide:focus .icon-slide {
   stroke: var(--color-white);
 }
 
@@ -208,18 +210,12 @@
   }
 }
 
-.swiper_num {
-  width: 18px;
-  height: 18px;
-}
+.swiper-pagination {
+  position: static;
+  z-index: 4;
 
-.swiper_num p {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: var(--color-white);
-}
-
-.box-num-swiper {
-  display: flex;
+  color: #FFFFFF;
 }
