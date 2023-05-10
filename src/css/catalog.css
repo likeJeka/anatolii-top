@@ -1,5 +1,5 @@
 .catalog {
-    padding: 80px 5px 80px 5px;
+    padding: 40px 5px 40px 5px;
 }
 
 .catalog-title {
@@ -128,6 +128,8 @@
         flex-flow: column;
         gap: 40px;
     }
+
+
 }
 
 @media screen and (max-width: 1279px) {
@@ -141,6 +143,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .catalog {
+        padding: 64px 5px 64px 5px;
+    }
+
     .catalog-list {
         flex-flow: row;
         flex-wrap: wrap;
@@ -163,6 +169,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .catalog {
+        padding: 80px 5px 80px 5px;
+    }
+
     .catalog-list {
         gap: 64px 24px;
     }
