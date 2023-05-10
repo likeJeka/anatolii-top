@@ -59,19 +59,14 @@
           nextEl: '.button-next',
           prevEl: '.button-prev',
         },
-      });
-    </script>
-     <script>
-      const swiper_num = new Swiper(".mynumber", {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        loop: true,
-        keyboard: {
-          enabled: true,
-        },
-        navigation: {
-          nextEl: ".button-next",
-          prevEl: ".button-prev",
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'custom',
+          renderCustom: function(swiper, current, total) {
+            return (current + '').padStart(2, "0") + ' &#9135;&#9135;&#9135;&#9135; ' + (total + '').padStart(2, "0");
+
+        }
+
         },
       });
     </script>
