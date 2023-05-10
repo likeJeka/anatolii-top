@@ -166,7 +166,8 @@
   .container-sale {
     width: 335px;
   }
-
+}
+@media screen and (min-width: 180px) {
   .sale-img-tab {
     display: none;
   }

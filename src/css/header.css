@@ -85,10 +85,12 @@ color: #FFFFFF;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: #1E2827;
+        background-color: #1E2827;
         border-radius: 8px;
         min-width: 159px;
         height: 48px;
+
+        transition: background-color 250ms linear;
     }
 }
 
@@ -135,4 +137,8 @@ line-height: 1.29;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
+}
+.tel-btn:hover,
+.tel-btn:focus  {
+    background-color: #192220;
 }
