@@ -1,10 +1,10 @@
-
 /* -----------------------------------------------general=styles--------------------------------------------------- */
 
 .sale-sections {
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 160px;
 }
 
 .section-n-title {
@@ -32,6 +32,7 @@
   flex-direction: column;
   gap: 10px;
 }
+
 .sale-item {
   width: 80px;
   height: 80px;
@@ -55,6 +56,7 @@
   color: #141414;
   margin-bottom: 8px;
 }
+
 .product-code {
   font-family: "Epilogue";
   font-weight: 400;
@@ -70,6 +72,7 @@
   gap: 8px;
   margin-bottom: 40px;
 }
+
 .min-price {
   font-family: "Epilogue";
   font-style: normal;
@@ -103,6 +106,7 @@
   padding-top: 8px;
   display: flex;
 }
+
 .description-clock-text {
   font-family: "Epilogue";
   font-weight: 400;
@@ -126,6 +130,7 @@
   padding-top: 8px;
   display: flex;
 }
+
 .characteristic-text {
   font-family: "Epilogue";
   font-style: normal;
@@ -153,6 +158,7 @@
   top: 0px;
   margin-left: 100px;
 }
+
 /* -----------------------------------------------------------------------adaptiv site --------------------------------------------------------------------*/
 
 /* tel------------------------------------------------------------------------------------------- */
@@ -160,9 +166,11 @@
   .container-sale {
     width: 335px;
   }
+
   .sale-img-tab {
     display: none;
   }
+
   .big-nnn-img-bpx-tab {
     display: none;
   }
@@ -171,31 +179,37 @@
 /* tab-------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 768px) {
   .sale-sections {
-    margin-bottom: 128px;
+    /* margin-bottom: 128px; */
   }
 
   .container-sale {
     width: 704px;
   }
+
   .img-container-n {
     padding-left: 66px;
     padding-right: 66px;
   }
+
   .sale-img-tab {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
+
   .sale-img {
     display: none;
   }
+
   .sale-item {
     width: 146px;
     height: 146px;
   }
+
   .big-nnn-img-bpx {
     display: none;
   }
+
   .big-nnn-img-bpx-tab {
     display: block;
   }
@@ -209,19 +223,23 @@
     font-size: 38px;
     line-height: 1;
   }
+
   .characteristic-text-list {
     gap: 3px;
   }
 }
+
 /* pc------------------------------------------------------------------------------------------------------ */
 
 @media screen and (min-width: 1280px) {
   .sale-sections {
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
   }
+
   .container-sale {
     width: 1176px;
   }
+
   .sale-container-group-comp {
     display: flex;
   }
