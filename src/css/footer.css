@@ -18,6 +18,7 @@
 }
 .footer-link {
   cursor: pointer;
+  width: 40px;
 }
 .footer-mar {
   margin-top: 40px;
